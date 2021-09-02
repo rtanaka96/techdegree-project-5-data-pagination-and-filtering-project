@@ -64,7 +64,7 @@ function addPagination(list) {
    }
 
    //select first pagination button and give it active class
-   document.querySelector('button[type="button"]').className = 'active';
+   document.querySelector('.pagination button[type="button"]').className = 'active';
 
    //create event listener on link list and dynamically add active class when clicked
    linkList.addEventListener('click', function(e) {
